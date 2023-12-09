@@ -1,0 +1,53 @@
+.heading-area h1 {
+  color: #3A3560;
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.cashBox label{ display: block; color: #747474; font-size: 14px; margin-bottom: 10px;}
+.cashBox input{
+  border: 1px solid #E4E4E4;
+border-radius: 6px;
+opacity: 1;
+padding: 11px;
+width: 100%;
+}
+.submitBtn{
+  padding: 10px 20px;
+  color: white;
+  margin: 10px 0;
+  background: #3A3560 0% 0% no-repeat padding-box;
+border: 1px solid #3A3560;
+border-radius: 4px;
+opacity: 1;
+}
+
+/* styles.module.css */
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+
+.operate-box select {
+  border: #ccc 1px solid;
+  padding: 11px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
