@@ -1,0 +1,16 @@
+{
+  "name": "ui-element",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/src/lib/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/src/lib/**/*.{ts,tsx,js,jsx}"]
+      }
+    }
+  }
+}
